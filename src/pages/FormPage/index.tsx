@@ -137,7 +137,7 @@ export default function FormPage() {
         <p>К оплате - {salePrice}</p>
         <div className="buttons">
           <button type="submit" className="btn-submit">
-            Перейти к оплате
+            Оплатить
           </button>
           <Link to="/">
             <button type="button">Назад</button>

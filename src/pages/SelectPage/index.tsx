@@ -36,7 +36,7 @@ export default function SelectPage() {
             <span className="price__actual">{sum}</span>
           </p>
           <Link className="price__btn" to="/form">
-            Купить
+            Оформить
           </Link>
         </div>
       )}
