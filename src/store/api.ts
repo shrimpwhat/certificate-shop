@@ -24,7 +24,7 @@ const api = createApi({
         formData.append("ApiKey", apiKey);
         formData.append("MethodName", "OSSale");
         formData.append("ClientName", params.name);
-        formData.append("Phone", params.phone);
+        formData.append("Phone", params.phone.slice(2));
         formData.append("Email", params.email);
         formData.append("Id", params.item.ID);
         formData.append("TableName", params.item.TABLENAME);
